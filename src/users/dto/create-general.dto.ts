@@ -14,8 +14,8 @@ export class CreateGeneralDto {
   readonly email: string;
 
   @ApiProperty({
-    example: "email@gmail.com",
-    description: "Емейл користувача",
+    example: "USER",
+    description: "Роль користувача, наприклад USER, ADMIN, MODERATOR",
   })
   readonly role: string;
 
